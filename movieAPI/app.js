@@ -76,7 +76,7 @@ const displayMovies = async (list) => {
       });
       return `
       <article class="movie" movieID="${id}">
-        <a href="">
+        <a href="./singleMovie.html?id=${id}">
           <div class="movie-info"
             <h1 class="movie-title">${title}</h1>
             <p class="movie-desc">${overview}</p>
